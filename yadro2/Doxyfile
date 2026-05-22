@@ -1,0 +1,14 @@
+PROJECT_NAME           = "System Monitor"
+PROJECT_BRIEF          = "Веб-мониторинг системных ресурсов"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = . src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.hpp *.cpp
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+USE_MDFILE_AS_MAINPAGE = README.md
+WARN_IF_UNDOCUMENTED   = YES
